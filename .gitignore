@@ -1,0 +1,39 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Python
+__pycache__/
+*.pyc
+
+# SLURM logs
+slurm-*.out
+
+# Large sequencing and result files (these go to SRA / Zenodo, not GitHub)
+*.bam
+*.bai
+*.bcf
+*.vcf
+*.vcf.gz
+*.fastq
+*.fastq.gz
+*.fq.gz
+*.fa
+*.fna
+*.fasta
+RefAlt*.txt
+GWAS_results_*.txt
+
+# Figures and archives
+*.png
+*.pdf
+*.zip
+*.pptx
+
+# OS junk
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
